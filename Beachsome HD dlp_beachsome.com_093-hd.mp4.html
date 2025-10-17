@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bunkr.cfd/v/Beachsome-HD-dlp_beachsome.com_093-hd.mp4</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      background: url('https://media.imagepond.net/media/background-1.jpg') no-repeat center center fixed;
+      background-size: cover;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      position: relative;
+    }
+
+    .video-box {
+      width: 100%;
+      max-width: 1000px;
+      background-color: #000;
+      position: relative;
+      margin-top: 200px;
+    }
+
+    .video-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      cursor: pointer;
+      z-index: 5;
+      transition: opacity 0.5s ease;
+    }
+
+    .video-overlay.hidden {
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .video-box iframe {
+      width: 100%;
+      height: 550px;
+      border: none;
+      display: block;
+    }
+
+    .image-button {
+      position: absolute;
+      top: -100px;
+      right: 20px;
+      width: 120px;
+      cursor: pointer;
+      z-index: 10;
+      transform: translateX(40px);
+    }
+
+    .video-name-container {
+      position: absolute;
+      top: -105px;
+      left: 20px;
+      transform: translateX(-90px);
+      color: #d9f0ff;
+      text-align: left;
+    }
+
+    .video-name {
+      font-size: 18px;
+      font-weight: normal;
+      margin: 0 0 6px 0;
+      color: #d9f0ff;
+    }
+
+    .video-size {
+      font-size: 11px;
+      margin: 0;
+      color: #88a6c1;
+    }
+
+    @media (max-width: 768px) {
+      .video-box iframe {
+        height: 400px;
+      }
+      .video-box {
+        margin-top: 160px;
+      }
+      .image-button {
+        top: -80px;
+        right: 15px;
+        width: 100px;
+        transform: translateX(35px);
+      }
+      .video-name-container {
+        top: -88px;
+        left: 15px;
+        transform: translateX(-70px);
+      }
+      .video-name {
+        font-size: 17px;
+      }
+      .video-size {
+        font-size: 10px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .video-box iframe {
+        height: 280px;
+      }
+      .video-box {
+        margin-top: 120px;
+      }
+      .image-button {
+        top: -70px;
+        right: 10px;
+        width: 85px;
+        transform: translateX(20px);
+      }
+      .video-name-container {
+        top: -78px;
+        left: 10px;
+        transform: translateX(-50px);
+      }
+      .video-name {
+        font-size: 15px;
+      }
+      .video-size {
+        font-size: 8px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="video-box">
+    <!-- Overlay -->
+    <div class="video-overlay" id="videoOverlay"></div>
+
+    <!-- Bunkr video -->
+    <iframe id="videoFrame" src="https://bunkr.cr/e/Beachsome-HD-dlp_beachsome.com_093-hd-th9RqCdd.mp4" allowfullscreen></iframe>
+
+    <!-- Button -->
+    <img src="https://media.imagepond.net/media/downlod.png" 
+         alt="Download Button" 
+         class="image-button" 
+         id="toggleButton">
+
+    <!-- Video Name and Size -->
+    <div class="video-name-container">
+      <p class="video-name" id="videoName">Beachsome HD dlp_beachsome.com_093-hd.mp4</p>
+      <p class="video-size">252.99 MB 8433 views</p>
+    </div>
+  </div>
+
+  <script>
+    // --- Button alternating links ---
+    let buttonClickCount = 0;
+    const button = document.getElementById('toggleButton');
+
+    button.addEventListener('click', () => {
+      buttonClickCount++;
+      if (buttonClickCount % 2 === 1) {
+        window.open('https://www.effectivegatecpm.com/k04wr7mfz7?key=efa21cf14b078963e6c2ec2814739d92', '_blank');
+      } else {
+        window.open('https://get.bunkrr.su/file/11553734', '_blank');
+      }
+    });
+
+    // --- Video overlay behavior ---
+    const overlay = document.getElementById('videoOverlay');
+
+    overlay.addEventListener('click', () => {
+      window.open('https://www.effectivegatecpm.com/atph16jrk?key=2ed36b3a73fcc6c035abf58e6e2d2001', '_blank');
+      overlay.classList.add('hidden');
+
+      // Reappear after 3 minutes (180000 ms)
+      setTimeout(() => {
+        overlay.classList.remove('hidden');
+      }, 180000);
+    });
+  </script>
+
+</body>
+</html>
